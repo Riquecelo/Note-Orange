@@ -1,0 +1,46 @@
+.lista_mae{
+    background-color: palegoldenrod;
+    width: 90%;
+    margin: 0 auto;
+    height: 220px;
+    border-radius: 10px 10px 0 0;
+    overflow-y: auto;
+}
+.lista_mae::-webkit-scrollbar{
+    width: 10px;
+}
+.lista_mae::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, blueviolet, transparent);
+    border-radius: 5px;
+}
+
+
+.card_curso .del_card{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    color: orange;
+}
+
+.card_curso .del_card:hover{
+    border: solid 1px orangered;
+    color: #fff;
+    font-weight: 700;
+}
+
+.item_lista{
+    margin: 10px ;
+}
+.item_lista .ass_aula, p, .num_aula{
+    color: blueviolet;
+}
+.item_lista button{
+    border-radius: 6px;
+    border: none;
+}
+.item_lista button:hover{
+    border-radius: 50px;
+}

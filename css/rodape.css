@@ -1,0 +1,24 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.rodape ul{
+    width: 200px;
+}
+
+.rodape ul li{
+    color: rgb(189, 125, 248);
+    margin: 15px;
+    cursor: pointer;
+}

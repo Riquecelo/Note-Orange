@@ -1,0 +1,38 @@
+nav{
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    
+}
+.menu li{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /*background-color: aqua;*/
+}
+.menu li h2{
+    color: orange;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.menu li, p, a{
+    color: orange;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    border-bottom: solid 1px orange;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}

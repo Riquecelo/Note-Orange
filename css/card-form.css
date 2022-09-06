@@ -1,0 +1,35 @@
+
+.card_curso form{
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+}
+.card_curso form label{
+    color: orangered;
+}
+
+.card_curso form .tema_aula input{
+    width: 150px;
+    margin-right: 5px;
+}
+.card_curso form .aula_quanti input{
+    width: 40px;
+}
+.card_curso form .add_aula{
+    width: 100px;
+    height: 70%;
+    margin: 0 5px;
+    color: orangered;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.card_curso form .add_aula:hover{ 
+    border-color: #fff;
+    border: solid 1px;
+}
