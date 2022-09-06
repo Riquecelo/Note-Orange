@@ -2,6 +2,8 @@
 
 https://riquecelo.github.io/Note-Orange/
 
-Login 
-U: admin
-S: admin
+|||
+|--|--|
+|Login |
+|User |admin|
+|Password |admin
