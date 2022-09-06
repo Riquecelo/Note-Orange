@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/secao-cadastro.css">
+    <link rel="stylesheet" href="css/secao-card.css">
+    <link rel="stylesheet" href="css/card-form.css">
+    <link rel="stylesheet" href="css/card-lista.css">
+
+    <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Note Orange</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><img class="logo" src="icons/logo.png" alt=""><h2>Note Orange</h2></li>
+            <li><img class="logo" src="icons/boy-front-color.png" alt=""> <span>Usuário</span> </li>
+            <li> <a href="entrar.html">Sair</a></li>
+        </ul>
+    </nav>
+    <main class="principal">
+        
+        <section class="secao_cadastra">
+            <p>Controle o andamento dos seus cursos fazendo pequenas anotações diárias sobre quais aulas você assistiu</p> <br>
+            <form action="">
+                <fieldset>
+                    <legend>Cadastre seu Curso</legend>
+                    <div>
+                        <label for="nomeCurso">Nome do curso</label>
+                        <input type="text" id="nomeCurso" placeholder="Informe o nome do Curso" maxlength="25">
+                    </div>
+
+                    <div>
+                        <label for="aulas">Quantidade de aulas</label>
+                        <input type="number" id="aulas" placeholder="Informe número de aulas">
+                    </div> 
+                    
+                    <button class="cad_curso">Cadastrar</button>
+                </fieldset>
+            </form>
+        </section>
+        <!--////////////////////////////////////////////////////////////////////////////-->
+        <section class="quadro_cards">
+            <div class="secao_card">
+
+                <div class=" hide card_modelo">
+                    <h2 class="titulo_curso_card">Nome do Curso</h2>
+                    <div class="mostrador">
+                        
+                        <span class="um">00</span>
+                    </div>
+                   
+                    <form action="">
+                        <div class="tema_aula">
+                            <label for="tituloAula">Tema</label>
+                            <input class="borda" type="text" id="tituloAula">
+                        </div>
+                        
+                        <div class="aula_quanti">
+                            <label for="numAula">Aula</label>
+                            <input class="borda" type="number" id="numAula">
+                        </div>
+                        <button class="add_aula">
+                            <img class="icons" src="icons/plus-front-clay.png" alt="">
+                        </button>
+                    </form>
+    
+                    <ul class="lista_mae">
+    
+                        <li class="item_lista lista_modelo hide">
+                            <h3 class="ass_aula">Assunto Aula</h3> 
+                            <p>Aula <span class="num_aula">0</span></p>
+                            <button class="marca_item_lista">
+                                <img class="icons" src="icons/tick-front-clay.png" alt="">
+                            </button>
+                            <button class="deleta_item_lista">
+                                <img class="icons" src="icons/trash-can-front-clay.png" alt="">
+                            </button>
+                        </li>
+                        
+                    </ul>
+                    <button class="del_card">Deletar</button>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
