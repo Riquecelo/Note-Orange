@@ -4,7 +4,7 @@
 
 ### Participação do Esquenta Programa de Formação Orange Juice.
 Desafio:<br>
-Criação de um projeto.Orange Notes, uma plataforma onde as pessoas poderão organizar seus cursos, vídeo aulas, artigos e tudo que envolve aprendizado em um local só, podendo ver seu progresso.
+Criação do projeto Orange Notes, uma plataforma onde as pessoas poderão organizar seus cursos, vídeo aulas, artigos e tudo que envolve aprendizado em um local só, podendo ver seu progresso.
 
 
 https://riquecelo.github.io/Note-Orange/
